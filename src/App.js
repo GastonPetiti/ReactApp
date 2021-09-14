@@ -2,11 +2,13 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const jsx = <h1>Gaston Petiti</h1>
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
+          {jsx}
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
